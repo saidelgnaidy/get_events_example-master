@@ -1,0 +1,11 @@
+{
+  "appTitle": "Template",
+  "lang": "language",
+  "theme": "Theme",
+  "light": "Light Theme",
+  "dark": "Dark Theme",
+  "system": "System Theme",
+  "en": "English",
+  "ar": "العربية",
+  "click": "Click"
+}

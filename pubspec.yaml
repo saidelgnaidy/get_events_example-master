@@ -1,0 +1,74 @@
+name: template
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl:
+  get:
+  get_storage:
+  flutter_bloc:
+  http:
+  cached_network_image: ^3.2.1
+  carousel_slider:
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+  freezed:
+  freezed_annotation:
+  build_runner:
+  json_serializable:
+  
+  flutter_launcher_icons:
+  #flutter pub run flutter_launcher_icons:main
+
+  flutter_native_splash:
+  #flutter pub run flutter_native_splash:create
+  
+  change_app_package_name:
+  #flutter pub run change_app_package_name:main com.new.package.name
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/launcher/icon.png"
+  adaptive_icon_background: "#ffffff"
+  adaptive_icon_foreground: "assets/launcher/icon.png"
+
+
+flutter_native_splash:
+  background_image: "assets/launcher/icon.png"
+  fullscreen: true
+  android: true
+  ios: true
+  web: true
+
+flutter:
+  uses-material-design: true
+
+  generate: true
+
+  assets:
+    - assets/
+    - assets/launcher/
+    - assets/fonts/
+
+  fonts:
+  - family: font
+    fonts:
+      - asset: assets/fonts/Taj.ttf
+        weight: 500
